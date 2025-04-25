@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pickle Rick Platformer</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @font-face {
+      font-family: 'SewerFont';
+      src: url('assets/fonts/WildSewerage.otf') format('opentype');
+    }
+  </style>
+</head>
+<body>
+  <div id="titleScreen">
+    <h1>Pickle Rick Platformer</h1>
+    <p class="instructions">
+      Reach the finish line to rescue Morty!<br>
+      Shoot the rats with screws.<br>
+      Use arrow keys or WASD to move.<br>
+      Press Space to shoot.<br><br>
+      Press ENTER to start.
+    </p>
+  </div>
+
+  <canvas id="gameCanvas" width="1200" height="600" style="display: none;"></canvas>
+
+  <script src="game.js"></script>
+</body>
+</html>
